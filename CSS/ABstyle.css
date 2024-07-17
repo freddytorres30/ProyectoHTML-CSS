@@ -6,6 +6,13 @@
     height: 80px;
     margin: 0%;
 }
+.hfinal{
+    padding-left: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .logo{
     margin-top: 10px;
 }
@@ -113,4 +120,48 @@ p{
 footer{
     background-color: #706f6f;
     height: 110px;
+}
+.fila{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 17px 17px 0px 17px;
+}
+.inf{
+    display: flex;
+   
+}
+.txtFooter{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lineFooter{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    height: 0px;
+    border: 1px solid #979797;
+}
+.priv{
+    display: flex;
+    justify-content: flex-start;
+}
+.txtPriv{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.priv{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 17px 17px 17px;
 }
