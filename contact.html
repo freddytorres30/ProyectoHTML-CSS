@@ -18,9 +18,14 @@
                 <li><a href="">Electricidad</a></li>
                 <li><a href="">Telecomunicaciones</a></li>
                 <li><a href="">Transparencia</a></li>
-                <li><a href="">contáctenos</a></li>
+                <li><a href="./contact.html">contáctenos</a></li>
             </ul>
         </nav>
+        <div class="hfinal">
+            <div class="busc"><a href=""><img src="./IMG/buscar.png" alt=""></a></div>
+            <div><a href=""><img src="./IMG/mapa.png" alt=""></a></div>
+            <div><a href=""><img src="./IMG/fondo2.jpg" alt="" width="80px"></a></div>
+        </div>
     </div>
     <div id="miniM">
 
@@ -57,21 +62,75 @@
     </div>
 
     <div id="cajas">
-        <div class="caja"><a href=""><img src="./IMG/iconoscontactenos_chatsempresariales.jpg" alt=""><p>Chats Empresariales</p></a></div>
-        <div class="caja"><a href=""><img src="./IMG/iconoscontactenos_numerosdeassitencia.jpg" alt=""><p>Número de asistencia</p></a></div>
-        <div class="caja"><a href=""><img src="./IMG/" alt=""><p>Agencias y tiendas</p></a></div>
-        <div class="caja"><a href=""><img src="" alt=""><p>Chat</p></a></div>
-        <div class="caja"><a href=""><img src="" alt=""><p>Chat</p></a></div>
-        <div class="caja"><a href=""><img src="" alt=""><p>Chat</p></a></div>
-        <div class="caja"><a href=""><img src="" alt=""><p>Chat</p></a></div>
-        <div class="caja"><a href=""><img src="" alt=""><p>Chat</p></a></div>
+        <div class="caja"><a href=""><img class="cajaIMG" src="./IMG/iconoscontactenos_chatsempresariales.jpg" alt=""><p class="txtcajas">Chats Empresariales</p></a></div>
+        <div class="caja"><a href=""><img class="cajaIMG" src="./IMG/iconoscontactenos_numerosdeassitencia.jpg" alt=""><p class="txtcajas">Número de asistencia</p></a></div>
+        <div class="caja"><a href=""><img class="cajaIMG" src="./IMG/iconoscontactenos_agenciasytiendas.jpg" alt=""><p class="txtcajas">Agencias y tiendas</p></a></div>
+        <div class="caja"><a href=""><img class="cajaIMG" src="./IMG/iceempleo.jpg" alt=""><p class="txtcajas">ICE Empleo</p></a></div>
+        <div class="caja"><a href=""><img class="cajaIMG" src="./IMG/iconoscontactenos_sugerenciasyreclamos.jpg" alt=""><p class="txtcajas">Sugerencias o reclamos</p></a></div>
+        <div class="caja"><a href=""><img class="cajaIMG" src="./IMG/iconoscontactenos_denunciasanteauditorias.jpg" alt=""><p class="txtcajas">Denuncias ante Auditoía</p></a></div>
+        <div class="caja"><a href=""><img class="cajaIMG" src="./IMG/iconoscontactenos_preguntasfrecuentes.jpg" alt=""><p class="txtcajas">Preguntas frecuentes</p></a></div>
+        <div class="caja"><a href=""><img class="cajaIMG" src="./IMG/icono-califiquenos.png" alt="" width="86" height="86"><p class="txtcajas">Califíquenos</p></a></div>
+    </div>
+
+    <div class="containerForm">
+        <h2>Formulario de sugerencia o reclamo</h2>
+        <div class="formulario">
+            <div class="formu"><p>Nombre completo</p><input class="cajita" type="text"></div>
+            <div class="formu"><p>cédula de identidad</p><input class="cajita" type="text"></div>
+            <div class="formu">
+                <label class="tex" for="suge">Tipo de consulta</label>
+                <select name="" id="suge">
+                    <option value="">Tipo de consulta</option>
+                    <option value="">servícios móviles</option>
+                    <option value="">internet</option>
+                    <option value="">servícios fijos</option>
+                    <option value="">Facturación</option>
+                    <option value="">Otros</option>
+                </select>
+            </div>
+            <div class="formu"><p>En caso de seleccionar "otro", favor especifique</p><input class="cajita" type="text"></div>
+            <div class="formu">
+                <label class="tex" for="gestion">Tipo de gestión</label>
+            <select name="" id="gestion">
+                <option value="">Tipo de gestión</option>
+                <option value="">sugerencia</option>
+                <option value="">reclamo</option>
+            </select>
+            </div>
+            <div class="formu"><p>Correo electrónico</p><input class="cajita" type="email"></div>
+            <div class="formu"><p>Número de teléfono</p><input class="cajita" type="number"></div>
+            <div class="formu"><p>Observaciones</p><input class="cajitaO" type="text"></div>
+            <div class="botones"><button class="btn">Enviar</button><button class="btn">Cancelar</button></div>
+        </div>
     </div>
 
     <footer>
-        
+        <div class="fila">
+            <div id="contacto">
+                <div class="inf">
+                    <div class="dat"><img src="./IMG/footer-ubi.png" alt=""></div>
+                    <div class="datos"><p class="txtFooter">San José, Costa Rica.</p></div>
+                    <div class="dat"><img src="./IMG/footer-telef.png" alt=""></div>
+                    <div class="datos"><p class="txtFooter">(+506) 2000 7720</p></div>
+                    <div class="dat"><img src="./IMG/footer-correo.png" alt=""></div>
+                    <div class="datos"><p class="txtFooter">contactenos@ice.go.cr</p></div>
+                </div>
+            </div>
+    
+            <div id="share">
+                <a href=""><img class="icon" src="./IMG/twiter.png" alt="twit"></a>
+                <a href=""><img class="icon" src="./IMG/face.png" alt=""></a>
+                <a href=""><img class="icon" src="./IMG/insta.png" alt=""></a>
+                <a href=""><img class="icon" src="./IMG/youtube.png" alt=""></a>
+                <a href=""><img class="icon" src="./IMG/WA.png" alt=""></a>
+            </div>
+        </div>
+        <hr class="lineFooter">
+        <div class="priv">
+            <div class="poli"><p class="txtPriv">Política de privacidad</p></div>
+            <div class="poli"><p class="txtPriv">Accesibilidad</p></div>
+        </div>
     </footer>
-
-
 
 
 </body>

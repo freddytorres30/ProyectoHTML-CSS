@@ -4,19 +4,14 @@
     align-items: center;
     background-color: #004B93;
     height: 80px;
+    width: 100%;
     margin: 0%;
-}
-.hfinal{
-    padding-left: 100px;
-    margin: auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 .logo{
     margin-top: 10px;
 }
 nav ul{
+    width: 1000px;
     display: flex;
     color: #ffff;
     padding: 0%;
@@ -24,23 +19,56 @@ nav ul{
     justify-content: space-between;
 }
 nav ul li a{
-    padding: 10px 16px;
+    padding: 8px 14px;
     color: #ffff;
     text-decoration: none;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.hfinal{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+}
+.containerCar{
+    width: 100%;
+    height: 450px;
+    display: grid;
+    place-content: center;
+    
+}
+.carIMG{
+    width: 1333px;
+    height: 446px;
+}
+.slide{
+    overflow: hidden;
+}
+.slide ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite cubic-bezier(0.55, 0.48, 0.37,0.92);
+}
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
 }
 .titulo{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.quienes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
 }
 .titu{
     color: #004b93;
@@ -49,6 +77,11 @@ nav ul li a{
     padding: 20px;
     font-weight: bolder;
     margin: 30px 0px 10px 0px;
+}
+.quienes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .lineaA{
     display: flex;
@@ -231,6 +264,54 @@ h3{
     font-weight: bolder;
     margin: 80px 0px 10px 0px;
 }
+#containerCarrusel{
+    width: 1100px;
+    margin-left: 90px;
+}
+#carruselNoticias li{
+    list-style: none;
+    width: 1100px;
+}
+#carruselNoticias ul{
+    display: flex;
+}
+.articulo{
+    width: 310px;
+    height: 630px;
+    margin: 18px;
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+.artiIMG{
+    width: 310px;
+    height: 250px;
+}
+.articulo p{
+    color: #212529;
+    text-decoration: none;
+    margin: auto;
+    padding: 10px;
+    line-height: 1.2;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articulo h3{
+    color: #212529;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 26px;
+    padding-top: 25px;
+    margin: auto;
+    padding: 10px;
+}
 #saberMas{
     display: flex;
     flex-direction: column;
@@ -247,6 +328,7 @@ h3{
     font-weight: lighter;
 }
 .txtQuere{
+    margin-top: 5px;
     color: #212529;
     text-decoration: none;
     margin: auto;
@@ -254,11 +336,18 @@ h3{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.star{
+    margin-top: 25px;
+    width: 105px;
+    height: 26px;
+}
 .cali{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    margin-top: 30px;
+    margin-top: 10px;
+    z-index: 100;
+    position: relative;
     height: 36px;
     width: 114px;
     border-radius: 4px;
@@ -266,3 +355,67 @@ h3{
     color: #ffffff;
 }
 
+footer{
+    margin-top: 70px;
+    background-color: #706f6f;
+    height: 110px;
+}
+.fila{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 17px 17px 0px 17px;
+}
+.inf{
+    display: flex;
+   
+}
+.datos{
+    margin: 10px;
+}
+.dat{
+    margin-top: 10px;
+}
+.txtFooter{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#share{
+    margin-right: 300px;
+}
+.icon{
+    margin: 8px;
+}
+.lineFooter{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    height: 0px;
+    border: 1px solid #979797;
+}
+.priv{
+    display: flex;
+    justify-content: flex-start;
+}
+.txtPriv{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.priv{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 17px 17px 17px;
+}
+.poli{
+    margin: 10px;
+}

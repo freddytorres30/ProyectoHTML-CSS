@@ -4,12 +4,14 @@
     align-items: center;
     background-color: #004B93;
     height: 80px;
+    width: 100%;
     margin: 0%;
 }
 .logo{
     margin-top: 10px;
 }
 nav ul{
+    width: 1000px;
     display: flex;
     color: #ffff;
     padding: 0%;
@@ -17,11 +19,17 @@ nav ul{
     justify-content: space-between;
 }
 nav ul li a{
-    padding: 10px 16px;
+    padding: 8px 14px;
     color: #ffff;
     text-decoration: none;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.hfinal{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
 }
 #miniM{
     height: 40px;
@@ -100,9 +108,18 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 #cajas{
+    margin: 80px 0px 90px 87px;
     display: flex;
     flex-wrap: wrap;
-    
+    width: 1200px;
+}
+.txtcajas{
+    color: #004b93;
+    text-decoration: none;
+    line-height: 1.2;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .caja{
     text-align: center;
@@ -110,11 +127,136 @@ p{
     align-items: flex-start;
     justify-content: flex-start;
     padding: 20px;
-    margin: 0 auto;
+    margin: 20px;
     box-sizing: border-box;
     height: 193px;
     width: 156px;
     border-radius: 10px;
     background-color: #FFFFFF;
     box-shadow: 0 2px 40px 0 rgba(172, 172, 172, 0.5);
+}
+.cajaIMG{
+    border: 1.3px solid #004B93;
+    border-radius: 50%;
+}
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formulario{
+    width: 750px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1.3px solid #cfcfcf;
+    border-radius: 4px;
+    margin: 30px;
+}
+.formulario p{
+    color: #212529;
+    text-decoration: none;
+    margin: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tex{
+    color: #212529;
+    text-decoration: none;
+    margin: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formu{
+    margin: 10px 0 10px 0;
+}
+.cajita{
+    width: 420px;
+    height: 22px;
+}
+.cajitaO{
+    width: 420px;
+    height: 70px;
+}
+.botones{
+    display: flex;
+}
+.btn{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333333;
+    border: none;
+    padding: 3px 15px;
+    background-color: #e7e7e7;
+    margin: 10px;
+}
+footer{
+    background-color: #706f6f;
+    height: 110px;
+}
+.fila{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 17px 17px 0px 17px;
+}
+.inf{
+    display: flex;
+   
+}
+.datos{
+    margin: 10px;
+}
+.dat{
+    margin-top: 10px;
+}
+.txtFooter{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#share{
+    margin-right: 300px;
+}
+.icon{
+    margin: 8px;
+}
+.lineFooter{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    height: 0px;
+    border: 1px solid #979797;
+}
+.priv{
+    display: flex;
+    justify-content: flex-start;
+}
+.txtPriv{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.priv{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 17px 17px 17px;
+}
+.poli{
+    margin: 10px;
 }
