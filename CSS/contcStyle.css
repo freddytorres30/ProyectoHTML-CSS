@@ -33,6 +33,16 @@ nav ul li a{
 }
 #miniM{
     height: 40px;
+    display: flex;
+    align-items: center;
+}
+#miniM a{
+    color: #212529;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #blue{
     display: flex;
@@ -78,6 +88,8 @@ h1{
 }
 .links{
     margin: 0px 40px 0px 60px;
+    display: flex;
+    align-items: center;
 }
 #informacion{
     display: flex;
@@ -112,6 +124,9 @@ p{
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
+}
+.caja a{
+    text-decoration: none;
 }
 .txtcajas{
     color: #004b93;
@@ -177,6 +192,13 @@ p{
 .formu{
     margin: 10px 0 10px 0;
 }
+.formu select{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 420px;
+    height: 22px;
+}
 .cajita{
     width: 420px;
     height: 22px;
@@ -227,10 +249,28 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
 }
 #share{
-    margin-right: 300px;
+    margin-left: 230px;
+    margin-right: 40px;
 }
 .icon{
     margin: 8px;
+}
+.idioma{
+    color: white;
+    box-sizing: border-box;
+    height: 23px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    background-color: #706f6f;
+    text-indent: 20px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.selIdioma{
+    color: white;
+    background-color: #706f6f;
+    border: none;
 }
 .lineFooter{
     width: 100%;
@@ -259,4 +299,9 @@ footer{
 }
 .poli{
     margin: 10px;
+}
+.btnFooter{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
 }
